@@ -17,7 +17,7 @@ public class Menu {
 
             if (Integer.valueOf(opcion) > opciones.length) {
                 Mensaje mensaje = new Mensaje();
-                mensaje.mostrarError("No exist la opcion");
+                mensaje.mostrarError("No existe la opcion");
             } else {
                 seguirPidiendo = false;
             }
